@@ -1,0 +1,10 @@
+^C:\WORK\TEST_REPO\TEST-REPO\BUILD\CMAKEFILES\6083029A98E27FBA47AF8F2F0A05889F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WORK/test_repo/test-repo -BC:/WORK/test_repo/test-repo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/WORK/test_repo/test-repo/build/testproj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
