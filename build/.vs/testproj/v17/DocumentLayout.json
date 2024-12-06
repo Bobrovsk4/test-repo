@@ -6,10 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{3C7B3618-8ED7-3ACE-AE33-EA01B8C32F22}|testproj.vcxproj|C:\\WORK\\test_repo\\test-repo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C7B3618-8ED7-3ACE-AE33-EA01B8C32F22}|testproj.vcxproj|C:\\WORK\\test_repo\\test-repo\\tests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C7B3618-8ED7-3ACE-AE33-EA01B8C32F22}|testproj.vcxproj|C:\\WORK\\test_repo\\test-repo\\tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C7B3618-8ED7-3ACE-AE33-EA01B8C32F22}|testproj.vcxproj|C:\\WORK\\test_repo\\test-repo\\tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C7B3618-8ED7-3ACE-AE33-EA01B8C32F22}|testproj.vcxproj|C:\\WORK\\test_repo\\test-repo\\tests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,26 +27,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "tests.cpp",
               "DocumentMoniker": "C:\\WORK\\test_repo\\test-repo\\tests.cpp",
               "RelativeDocumentMoniker": "..\\tests.cpp",
               "ToolTip": "C:\\WORK\\test_repo\\test-repo\\tests.cpp",
               "RelativeToolTip": "..\\tests.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T13:15:18.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "tests.h",
               "DocumentMoniker": "C:\\WORK\\test_repo\\test-repo\\tests.h",
               "RelativeDocumentMoniker": "..\\tests.h",
               "ToolTip": "C:\\WORK\\test_repo\\test-repo\\tests.h",
               "RelativeToolTip": "..\\tests.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-06T13:14:57.599Z",
               "EditorCaption": ""
@@ -59,7 +59,7 @@
               "RelativeDocumentMoniker": "..\\main.cpp",
               "ToolTip": "C:\\WORK\\test_repo\\test-repo\\main.cpp",
               "RelativeToolTip": "..\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T13:14:34.617Z",
               "EditorCaption": ""
