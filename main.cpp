@@ -11,6 +11,10 @@ void initTests()
     tests.push_back(test1_body_contains_boundary_values);
     tests.push_back(test1_body_contains_external_values);
     tests.push_back(test1_body_contains_internal_values);
+
+    tests.push_back(test2_contains_boundary_values);
+    tests.push_back(test2_contains_external_values);
+    tests.push_back(test2_contains_internal_values);
 }
 
 int launchTests()

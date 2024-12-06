@@ -1,7 +1,5 @@
-﻿  Building Custom Rule C:/WORK/test_repo/test-repo/CMakeLists.txt
-  tests.cpp
+﻿  tests.cpp
   main.cpp
-  candle.cpp
   Создание кода...
   testproj.vcxproj -> C:\WORK\test_repo\test-repo\build\Debug\testproj.exe
   "pwsh.exe" не является внутренней или внешней
