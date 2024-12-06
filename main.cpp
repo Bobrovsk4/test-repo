@@ -19,6 +19,10 @@ void initTests()
     tests.push_back(test3_full_size_integer_values);
     tests.push_back(test3_full_size_zeroes);
     tests.push_back(test3_full_size_double_values);
+
+    tests.push_back(test4_body_size_integer_values);
+    tests.push_back(test4_body_size_zeroes);
+    tests.push_back(test4_body_size_double_values);
 }
 
 int launchTests()

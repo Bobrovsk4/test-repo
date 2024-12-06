@@ -12,3 +12,7 @@ bool test2_contains_internal_values();
 bool test3_full_size_integer_values();
 bool test3_full_size_zeroes();
 bool test3_full_size_double_values();
+
+bool test4_body_size_integer_values();
+bool test4_body_size_zeroes();
+bool test4_body_size_double_values();
