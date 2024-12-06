@@ -111,3 +111,43 @@ bool test4_body_size_double_values()
 	Candle candle(open, high, low, close);
 	return candle.body_size() == 19.0;
 }
+
+bool test5_is_red_integer_values()
+{
+	Price open1 = 10;
+	Price high1 = 50;
+	Price low1 = -1;
+	Price close1 = 5;
+	Candle candle1(open1, high1, low1, close1);
+
+	Price open2 = 10;
+	Price high2 = 50;
+	Price low2 = -1;
+	Price close2 = 30;
+	Candle candle2(open2, high2, low2, close2);
+	return candle1.is_red() && !candle2.is_red();
+}
+bool test5_is_red_zeroes()
+{
+	Price open = 0;
+	Price high = 0;
+	Price low = 0;
+	Price close = 0;
+	Candle candle(open, high, low, close);
+	return !candle.is_red();
+}
+bool test5_is_red_double_values()
+{
+	Price open1 = 10.1;
+	Price high1 = 49.1;
+	Price low1 = -1.1;
+	Price close1 = 4.9;
+	Candle candle1(open1, high1, low1, close1);
+
+	Price open2 = 10.1;
+	Price high2 = 49.1;
+	Price low2 = -1.1;
+	Price close2 = 29.1;
+	Candle candle2(open2, high2, low2, close2);
+	return candle1.is_red() && !candle2.is_red();
+}

@@ -23,6 +23,10 @@ void initTests()
     tests.push_back(test4_body_size_integer_values);
     tests.push_back(test4_body_size_zeroes);
     tests.push_back(test4_body_size_double_values);
+
+    tests.push_back(test5_is_red_integer_values);
+    tests.push_back(test5_is_red_zeroes);
+    tests.push_back(test5_is_red_double_values);
 }
 
 int launchTests()
