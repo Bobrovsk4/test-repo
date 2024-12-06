@@ -151,3 +151,43 @@ bool test5_is_red_double_values()
 	Candle candle2(open2, high2, low2, close2);
 	return candle1.is_red() && !candle2.is_red();
 }
+
+bool test6_is_green_integer_values()
+{
+	Price open1 = 10;
+	Price high1 = 50;
+	Price low1 = -1;
+	Price close1 = 15;
+	Candle candle1(open1, high1, low1, close1);
+
+	Price open2 = 40;
+	Price high2 = 50;
+	Price low2 = -1;
+	Price close2 = 30;
+	Candle candle2(open2, high2, low2, close2);
+	return candle1.is_green() && !candle2.is_green();
+}
+bool test6_is_green_zeroes()
+{
+	Price open = 0;
+	Price high = 0;
+	Price low = 0;
+	Price close = 0;
+	Candle candle(open, high, low, close);
+	return !candle.is_green();
+}
+bool test6_is_green_double_values()
+{
+	Price open1 = 10.1;
+	Price high1 = 49.1;
+	Price low1 = -1.1;
+	Price close1 = 14.9;
+	Candle candle1(open1, high1, low1, close1);
+
+	Price open2 = 10.1;
+	Price high2 = 49.1;
+	Price low2 = -1.1;
+	Price close2 = -29.1;
+	Candle candle2(open2, high2, low2, close2);
+	return candle1.is_green() && !candle2.is_green();
+}
